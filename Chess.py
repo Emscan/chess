@@ -1,15 +1,11 @@
 class Game(object):
 	def __init__(self):
 
-
 class Player(object):
 	def __init__(self):
 
-
 class Board(object):
 	def __init__(self):
-
-
 
 class Piece(object):
 	def __init__(self, color):
@@ -18,7 +14,6 @@ class Piece(object):
 	def move(self):
 		pass
 
-
 class King(Piece):
 	white = u'\u2654'
 	black = u'\u265A'
@@ -26,14 +21,12 @@ class King(Piece):
 	def possible_moves(self):
 		pass
 
-
 class Queen(Piece):
 	white = u'\u2655'
 	black = u'\u265B'
 
 	def possible_moves(self):
 		pass
-
 
 class Bishop(Piece):
 	white = u'\u2657'
@@ -62,4 +55,3 @@ class Pawn(Piece):
 
 	def possible_moves(self):
 		pass
-

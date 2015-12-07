@@ -79,7 +79,6 @@ class Piece(object):
 			return False
 		return king.is_in_check(king.spot)
 
-
 	def get_king(self):
 		king_list = filter(lambda x: isinstance(x, King) and x.color == self.color, self.board.flatten())
 		if len(king_list) == 0:
@@ -191,5 +190,3 @@ class Pawn(Piece):
 					poss.append(spot)
 
 		return poss
-		
-

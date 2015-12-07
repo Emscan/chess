@@ -48,7 +48,6 @@ class Player(object):
 		return False
 
 	#def pieces_off_board(self, piece):
-
 '''class NetworkPlayer(Player):
 	def __init__(self, conn):
 		self.conn = conn
@@ -111,7 +110,3 @@ class RemoteNetworkPlayer(Player):
 		move = self.conn.recv(1024)
 		move = json.loads(move)
 		return list(move)
-
-
-
-

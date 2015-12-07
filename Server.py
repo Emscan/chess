@@ -15,7 +15,6 @@ def serve_chess(conn, address):
 	game = Game(player1, player2)
 	game.play()
 
-
 while True:
 	conn, address = sock.accept()
 	thread.start_new_thread(serve_chess, (conn, address))

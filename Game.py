@@ -16,7 +16,6 @@ class Game(object):
 		subprocess.call("clear", shell=True)
 		return
 
-
 	def play(self):
 		while True:
 			print unicode(self.board)
