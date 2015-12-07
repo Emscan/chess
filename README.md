@@ -6,4 +6,4 @@
 - One terminal runs $ python Server.py
 - Second terminal runs $ python Client.py
 - Enter IP(or localhost) and port: 5150.
--enjoy playing
+- enjoy playing
